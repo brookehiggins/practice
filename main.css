@@ -17,7 +17,14 @@
     height: 65%;
     margin: 45px;
     justify-content: center;
+    flex-wrap: wrap;
 }
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
 
 .imgMain {
     height: 100%;
