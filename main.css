@@ -1,0 +1,30 @@
+.text {
+    text-align: center;
+    color: aliceblue;
+}
+
+.menu {
+    height: 4%;
+    width: auto;
+    margin: 5px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    height: 65%;
+    margin: 45px;
+    justify-content: center;
+}
+
+.imgMain {
+    height: 100%;
+    width: auto;
+    text-align: center;
+}
+
+.imgMain:hover {
+    transform: scale(1.03);
+}
